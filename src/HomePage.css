@@ -1,0 +1,41 @@
+.group_container {
+    display: flex;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.group_container:hover {
+    box-shadow: 0 0 11px rgba(80, 79, 79, 0.4);
+    border: solid black 2px;
+  }
+img {
+    width: 20%;
+    float: left;
+}
+.group_description {
+    width: 50%;
+    float: right;
+    margin-left: 50px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.action_buttons{
+    display: flex;
+    background-color: rgb(232, 198, 114);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.see_all_users_button{
+    float: left;
+    margin-right: 15px;
+}
+
+.group_add_button{
+    float: left;
+    margin-left: 15px;
+}
