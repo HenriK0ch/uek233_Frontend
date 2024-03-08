@@ -1,5 +1,5 @@
 # Use a lightweight web server to serve the production build
-FROM nginx:alpine
+FROM ubuntu:latest
 # Copy the production build from the builder stage to the nginx web server
 COPY  ./build /usr/share/nginx/html
 # Copy config files
